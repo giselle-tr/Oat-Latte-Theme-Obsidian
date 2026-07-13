@@ -1,4 +1,4 @@
-/* OAT LATTE - Custom Obsidian Theme by Esma */
+/* OAT LATTE - Custom Obsidian Theme by Giselle */
 
 /* ===== OAT LATTE — Obsidian ===== */
 
@@ -61,7 +61,6 @@ a {
 }
 /* ===== Dreamy writing look ===== */
 
-/* Ana yazı rengi ve font */
 .theme-light .markdown-source-view,
 .theme-light .markdown-preview-view {
   color: #5b4a3c;
@@ -71,13 +70,11 @@ a {
   letter-spacing: 0.2px;
 }
 
-/* Paragraf yumuşaklığı */
 .theme-light p {
   margin-block-start: 0.6em;
   margin-block-end: 0.6em;
 }
 
-/* Başlıklar */
 .theme-light h1,
 .theme-light h2,
 .theme-light h3 {
@@ -86,7 +83,6 @@ a {
   font-weight: 600;
 }
 
-/* İtalik yazılar daha dreamy olsun */
 em {
   font-style: italic;
   color: #6a5646;
@@ -112,27 +108,23 @@ em {
   background-position-y: 1.1em;
 }
 
-/* ===== Lined paper effect ===== */
-
-/* Light mode çizgiler */
-.theme-light .markdown-source-view,
-.theme-light .markdown-preview-view {
-  background-color: #fbf7f2;
-  background-image: 
-    linear-gradient(
-      to bottom,
-      rgba(140, 110, 80, 0.25) 1px,
-      transparent 1px
-    );
-  background-size:
 /* ===== Text selection (Light mode) ===== */
+
 .theme-light ::selection {
   background-color: #cab6a3;
-  color: #3f2e25; /* seçiliyken yazı rengi, uyumlu olsun diye */
+  color: #3f2e25;
 }
+
 /* ===== Cursor color ===== */
+
 .theme-light .cm-editor .cm-cursor {
-  border-left-color: #8b6f5a !important;
+  border-left-color: #8b6f5a;
+}
+
+/* ===== Active line highlight ===== */
+
+.theme-light .cm-activeLine {
+  background-color: rgba(202, 182, 163, 0.18);
 }
 
 }
@@ -161,7 +153,6 @@ pre code {
   font-family: "Cascadia Code", "Cascadia Mono", monospace;
 }
 
-/* Optional: ligatures açık olsun */
 code, pre, .cm-content {
   font-variant-ligatures: contextual;
 }
